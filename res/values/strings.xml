@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Earth Observer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Atmosphere</string>
+    <string name="title_section2">Energy</string>
+    <string name="title_section3">Land</string>
+    <string name="title_section4">Life</string>
+    <string name="title_section5">Ocean</string>
+    <string-array name="mapList">
+        <item >Rainfall</item>
+        <item >Water Vapour</item>
+        <item >Ozone</item>
+        <item >Land Surface Temperature</item>
+        <item >Sea Surface Temperature</item>
+        <item >Solar Insolation</item>
+        <item >Active Fires</item>
+        <item >Snow Cover</item>
+        <item >Vegetation Index</item>
+        <item >Population</item>
+        <item >Chlorophyll Concentration</item>
+        <item >Night Lights</item>
+        <item >Carbon Monoxide</item>
+    </string-array>
+    <string-array name="atmosphere">
+        <item >Carbon Monoxide</item>
+        <item >Ozone</item>
+        <item >Rainfall</item>
+        <item >Water Vapour</item>
+    </string-array>
+    <string-array name="energy">
+        <item >Land Surface Temperature</item>
+        <item >Sea Surface Temperature</item>
+        <item >Solar Insolation</item>
+    </string-array>
+    <string-array name="land">
+        <item >Active Fires</item>
+        <item >Land Surface Temperature</item>
+        <item >Snow Cover</item>
+        <item >Topography</item>
+        <item >Vegetation Index</item>
+    </string-array>
+    <string-array name="life">
+        <item >Chlorophyll Concentration</item>
+        <item >Population</item>
+        <item >Vegetation Index</item>
+        <item >Night Lights</item>
+    </string-array>
+    <string-array name="ocean">
+        <item >Chlorophyll Concentration</item>
+        <item >Sea Surface Temperature</item>
+    </string-array>
+    <string name="rainfall">Rainfall data is useful for crop rotation planning, erosion studies as well as useful weather knowledge for predetermined terrains.</string>
+    <string name="solar_insolation">Solar insolation data can help us plan locations of solar farms, know if temperatures are too high for growth of certain crops. Scientists can also understand weather and climate patterns with this data.</string>
+    <string name="ozone">Ozone\'s impact on climate consists primarily of changes in temperature. The more ozone in a given parcel of air, the more heat it retains.</string>
+    <string name="water_vapour">Increasing water vapor leads to warmer temperatures, which causes more water vapor to be absorbed into the air. Water vapor is known to be Earth’s most abundant greenhouse gas. </string>
+    <string name="carbon_monoxide">Carbon monoxide (CO) is only a very weak direct greenhouse gas, but has important indirect effects on global warming. Carbon monoxide is an ozone precursor, and also reacts with the hydroxyl (OH) radicals in the atmosphere, reducing their abundance.</string>
+    <string name="sea_surface_temperature">Sea surface temperatures have a large influence on climate and weather. Even changes of just a few degrees Celsius can influence large-scale weather phenomena, such as El Niño or tropical cyclones.</string>
+    <string name="land_surface_temperature">Temperature is one of the three major influences on global patterns of plant growth. Along with available sunlight and water, temperature determines whether the land will support dense forests, grassland, or nearly barren desert.</string>
+    <string name="snow_cover">Snow cover shows impact of receding coastlines which due to global warming increases the amount of water in the ocean and can lead to flooding and erosion in areas closer to oceons.</string>
+    <string name="night_lights">Night Lights shows you the distribution of electricity during the Night hours in different locations. Over time, you can tell electricity distribution and consumption has improved in localities.</string>
+    <string name="vegetation_index">Vegetation - they feed us, clothe us, absorb carbon dioxide, provide us with oxygen, and give us building materials and medications. When drastic changes occur to the vegetation around us, our health, economy, and environment are all affected.</string>
+    <string name="topography">Accurate topographic data will be used for engineering, energy exploration, conserving natural resources, environmental management, public works design, firefighting, recreation, geology and city planning, to name just a few areas.</string>
+    <string name="active_fires">Fire is a recurring part of nature. Wildfires can be caused by lightning striking a forest canopy or, in a few isolated cases, by lava or hot rocks ejected from erupting volcanoes. Most fires worldwide are started by humans, sometimes accidentally and sometimes on purpose. Not all fires are bad. Fire clears away dead and dying underbrush, which can help restore forest ecosystems to good health.</string>
+    <string name="population">Demographic data is effective for studies relating to land use, Rural-Urban Mapping projects, Natural Resource Management Index and global poverty distribution maps.</string>
+    <string name="chlorophyll_concentration">This map shows where tiny, floating plants live in the ocean. These plants, called phytoplankton, are an important part of the ocean\'s food chain because many animals (such as small fish and whales) feed on them. Scientists can learn a lot about the ocean by observing where and when phytoplankton grow in large numbers.</string>
+    <string-array name="years">
+        <item >2011</item>
+        <item >2012</item>
+        <item >2013</item>
+        <item >2014</item>
+    </string-array>
+    <string-array name="months">
+        <item >January</item>
+        <item >February</item>
+        <item >March</item>
+        <item >April</item>
+        <item >May</item>
+        <item >June</item>
+        <item >July</item>
+        <item >August</item>
+        <item >September</item>
+        <item >October</item>
+        <item >November</item>
+        <item >December</item>
+    </string-array>
+    <string name="drawer_opened">Drawer Opened</string>
+    <string name="drawer_closed">Drawer Closed</string>
+</resources>

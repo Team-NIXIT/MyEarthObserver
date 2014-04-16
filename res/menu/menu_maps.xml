@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/help" android:title="Help" android:showAsAction="ifRoom" android:orderInCategory="4"></item><item android:id="@+id/mapLoc" android:title="Map Location" android:showAsAction="ifRoom" android:icon="@drawable/ic_maplocation" android:orderInCategory="3"></item><item android:id="@+id/getDate" android:title="Date" android:icon="@drawable/ic_getdate" android:orderInCategory="2"></item>
+    <item android:id="@+id/clearMap" android:title="Clear Map" android:orderInCategory="5"></item>
+    <item android:id="@+id/start_anim" android:icon="@drawable/ic_start_animation" android:title="Create Animation" android:orderInCategory="7"></item>
+    
+    
+    
+</menu>
