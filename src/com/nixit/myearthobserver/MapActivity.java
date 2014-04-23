@@ -135,8 +135,8 @@ private TextView txtCatDateStatus;
 				Spinner spnMonth = (Spinner)dateDialgView.findViewById(R.id.spnstrMonth);
 				Spinner spnYear = (Spinner)dateDialgView.findViewById(R.id.spnstrYear);
 				
-				month = spnMonth.getSelectedItem().toString();
-				year = spnYear.getSelectedItem().toString();
+				month = spnMonth.getSelectedItem().toString().toLowerCase(Locale.ENGLISH);
+				year = spnYear.getSelectedItem().toString().toLowerCase(Locale.ENGLISH);
 				
 				getData();
 				dateDialog.dismiss();
@@ -167,10 +167,10 @@ private TextView txtCatDateStatus;
 				Spinner spnEndMonth = (Spinner)animateDialogView.findViewById(R.id.spnstrMonth);
 				Spinner spnEndYear = (Spinner)animateDialogView.findViewById(R.id.spnstrYear);
 				
-				String startMonth = spnStartMonth.getSelectedItem().toString();
-				String startYear = spnStartYear.getSelectedItem().toString();
-				String endMonth = spnEndMonth.getSelectedItem().toString();
-				String endYear = spnEndYear.getSelectedItem().toString();
+				String startMonth = spnStartMonth.getSelectedItem().toString().toLowerCase(Locale.ENGLISH);
+				String startYear = spnStartYear.getSelectedItem().toString().toLowerCase(Locale.ENGLISH);
+				String endMonth = spnEndMonth.getSelectedItem().toString().toLowerCase(Locale.ENGLISH);
+				String endYear = spnEndYear.getSelectedItem().toString().toLowerCase(Locale.ENGLISH);
 				
 				AnimationLoop animeLoop = new AnimationLoop(startMonth,endMonth,startYear,endYear);
 				
